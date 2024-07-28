@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div class="header__img">
+                <img src="./img/Logo_Alura.png" alt="Logo Alura">
+            </div>
+        </div>
+    </header>
+    <main>
+            <div class="container">
+                <div class="encriptador">
+                    <form class="formularioDeEncriptado"></form>
+                        <div class="entrada">
+                            <h1> <strong>Encripta y desencripta tu texto</strong></h1>
+                            <textarea id="textoEntrada" placeholder="Ingresa el texto aquí"></textarea>
+                            <div class="textoInformativo">
+                                <div class="informacion">
+                                    <p> <img src="./img/exclamacion.svg" alt="Ícono de advertencia"> Solo letras minúsculas y sin acentos</p>
+                                    <div id="warning" class="oculto">Caracteres inválidos detectados</div>
+                                </div>
+                                <div class="textoEnBotones">
+                                    <button id="botonEncriptar">Encriptar</button>
+                                    <button id="botonDesencriptar">Desencriptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>        
+                    <div id="textoSalida">
+                        <p>Resultado</p>
+            <textarea id="textoResultado" readonly></textarea>
+            <p id="mensajeInicial">Ningún mensaje fue encontrado</p>
+            <button id="botonCopiar" class="oculto">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Creación de <strong>Alvaro Paba</strong> para <strong>Alura Latam</strong></p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
