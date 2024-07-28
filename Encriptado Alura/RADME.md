@@ -1,5 +1,3 @@
-¡Absolutamente! Aquí tienes un borrador de README que puedes adaptar:
-
 ## Challenge Alura Latam: Encriptador y Desencriptador de Texto 🔑
 
 **Autor:** Álvaro Paba
